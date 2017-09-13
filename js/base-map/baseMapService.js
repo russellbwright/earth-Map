@@ -47,13 +47,5 @@ this.initEarthQuakes = $q(function(res, rej){
 
 
 
-
-
-
-
-
-
-
-
 });
 

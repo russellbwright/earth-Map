@@ -12,12 +12,25 @@
 <body ng-controller="earthCtrl"> 
     
 
-{{message}}
+    <div class="mainNavBox">
+        <div class="itemBox">
+            
+            <div class="navList" class="leftBoxes" class="navItems"> List </div>
+            <div class="settings" class="leftBoxes" class="navItems"> Settings </div>
+            <div class="logo" class="leftBoxes" class="navItems" >  
+                <img src="./img/eqMap.png" style="width: 60px; max-height: 60px"/>
+            </div>
+            <div class="about" class="rightBoxes" class="navItems"> About </div>
+            <div class="contact" class="rightBoxes" class="navItems"> Contact </div>
+        
+        </div>
+    </div>
+
+
 <div ng-repeat="item in eq">Title: {{item.properties.title}}</div>
 
 <div id="map">
 <div id="basemapToggleDiv"></div>
-
 </div>
 <!-- <div id="map"></div> -->
 
