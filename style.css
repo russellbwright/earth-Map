@@ -1,0 +1,12 @@
+html, body, #map {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  #basemapToggleDiv {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 50;
+  }
