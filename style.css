@@ -7,8 +7,8 @@ html, body, #map {
 
   #basemapToggleDiv {
     position: absolute;
-    top: 80px;
-    right: 25px;
+    top: 100px;
+    right: 27px;
     z-index: 50;
   }
 
@@ -20,6 +20,8 @@ html, body, #map {
     align-items: center;
     /* margin: 15px; */
     color: #EFEFEF;
+    font-family: sans-serif;
+    letter-spacing: 1px;
   }
 
   .mainNavBox{
